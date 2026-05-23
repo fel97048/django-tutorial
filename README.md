@@ -12,3 +12,9 @@ python -m django --version
 django-admin startproject mysite djangotutorial
 ```
 
+## 開発用サーバー
+```
+python manage.py runserver
+```
+
+ブラウザでhttp://127.0.0.1:8000/にアクセス
