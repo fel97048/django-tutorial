@@ -1,1 +1,1 @@
-# django-tutolial
+# django-tutorial
