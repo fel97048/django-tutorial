@@ -20,3 +20,17 @@ python manage.py runserver
 ```
 
 ブラウザで http://127.0.0.1:8000/ にアクセス
+
+## アプリケーションを作成
+```
+python manage.py startapp polls
+```
+
+## ビューを作成
+polls/views.py を編集
+```
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
+```
