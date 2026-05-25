@@ -1,5 +1,7 @@
 # django-tutorial
 
+https://docs.djangoproject.com/ja/6.0/intro/
+
 ## インストール
 
 ```
@@ -17,4 +19,4 @@ django-admin startproject mysite djangotutorial
 python manage.py runserver
 ```
 
-ブラウザでhttp://127.0.0.1:8000/にアクセス
+ブラウザで http://127.0.0.1:8000/ にアクセス
